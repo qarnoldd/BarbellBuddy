@@ -40,14 +40,14 @@ export default function LoginScreen() {
 
         <View className=" mt-10 flex flex-row w-[100%] h-14 justify-center">
           <Pressable
-            className="bg-red-600 rounded-2xl justify-center w-[30%] mr-10 active:bg-red-900"
+            className="bg-red-700 rounded-2xl justify-center w-[30%] mr-10 active:bg-red-900"
             onPress={() => router.navigate("/(tabs)")}
           >
             <Text className="text-white text-xl ml-auto mr-auto pl-50">
               Login
             </Text>
           </Pressable>
-          <Pressable className="bg-red-600 rounded-2xl justify-center w-[30%] ml-10 active:bg-red-900">
+          <Pressable className="bg-red-700 rounded-2xl justify-center w-[30%] ml-10 active:bg-red-900">
             <Text className="text-white text-xl ml-auto mr-auto">Sign Up</Text>
           </Pressable>
         </View>
