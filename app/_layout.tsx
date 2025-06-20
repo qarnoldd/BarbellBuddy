@@ -5,7 +5,10 @@ import "react-native-reanimated";
 
 export default function RootLayout() {
   const [loaded] = useFonts({
-    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
+    Roboto_CondensedLight: require("../assets/fonts/Roboto_Condensed-Light.ttf"),
+    Roboto_CondensedMedium: require("../assets/fonts/Roboto_Condensed-Medium.ttf"),
+    RobotoBoldItalic: require("../assets/fonts/Roboto-BoldItalic.ttf"),
+    RobotoExtraLight: require("../assets/fonts/Roboto-ExtraLight.ttf"),
   });
 
   if (!loaded) {
