@@ -3,8 +3,9 @@ import Svg, { Path, SvgProps } from "react-native-svg";
 
 function Plus(props: SvgProps) {
   return (
-    <Svg fill="none" viewBox="0 0 24 24" {...props}>
+    <Svg width={50} height={50} fill="none" viewBox="0 0 24 24" {...props}>
       <Path
+        stroke="white"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth={1.5}
