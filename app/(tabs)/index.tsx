@@ -15,8 +15,11 @@ export default function IndexScreen() {
           </Text>
         </View>
         <View className="h-[100%]">
+          <Text className="mt-52 text-2xl mr-auto ml-auto text-white font-RobotoExtraLight ">
+            Nothing today
+          </Text>
           <Pressable
-            className="mt-60 h-40 w-64 bg-gray-700 rounded-lg justify-center ml-auto mr-auto active:bg-gray-800"
+            className=" mt-56 h-40 w-64 bg-gray-700 rounded-lg justify-center ml-auto mr-auto active:bg-gray-800"
             onPress={() => router.navigate("/workout")}
           >
             <View className="ml-auto mr-auto">

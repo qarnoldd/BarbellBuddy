@@ -8,7 +8,7 @@ export default function GroupTab({ title }: { title: string }) {
 
   const toggleActive = () => {
     Animated.timing(heightAnim, {
-      toValue: active ? 0 : 300,
+      toValue: active ? 0 : 260,
       duration: 400,
       useNativeDriver: false,
     }).start();

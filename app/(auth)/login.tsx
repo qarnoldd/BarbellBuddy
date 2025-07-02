@@ -1,8 +1,10 @@
 import { useRouter } from "expo-router";
+import { useState } from "react";
 import { Pressable, Text, TextInput, View } from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 export default function LoginScreen() {
   const router = useRouter();
+  const [showpass, toggleshowpass] = useState(true);
   return (
     <KeyboardAwareScrollView
       keyboardShouldPersistTaps="handled"
@@ -21,13 +23,16 @@ export default function LoginScreen() {
           Password
         </Text>
         <TextInput
-          secureTextEntry={true}
+          secureTextEntry={showpass}
           className="bg-gray-700 rounded-2xl mt-4 text-white font-RobotoExtraLight text-lg pl-3 h-12"
         />
 
         <View className="flex flex-row justify-between mt-2">
           <Pressable>
-            <Text className="text-gray-500 font-RobotoExtraLight text-lg">
+            <Text
+              className="text-gray-500 font-RobotoExtraLight text-lg"
+              onPress={() => toggleshowpass(!showpass)}
+            >
               Show Password
             </Text>
           </Pressable>

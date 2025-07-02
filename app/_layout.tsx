@@ -12,15 +12,19 @@ export default function RootLayout() {
   });
 
   if (!loaded) {
-    // Async font loading only occurs in development.
     return null;
   }
 
   return (
     <Stack>
-      <Stack.Screen name="login" options={{ headerShown: false }} />
-      <Stack.Screen name="workout" options={{ headerShown: false }} />
+      <Stack.Screen name="(auth)/login" options={{ headerShown: false }} />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="routines/createroutine"
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen name="routines/addday" options={{ headerShown: false }} />
+      <Stack.Screen name="workout" options={{ headerShown: false }} />
       <Stack.Screen name="+not-found" />
     </Stack>
   );
