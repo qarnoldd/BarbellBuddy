@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# Barbell Buddy
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -16,35 +16,17 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   And the program can be run either in web with "w" or on on your expo app with "a".
+## App Preview
+### Login Page
+<img width="495" height="849" alt="image" src="https://github.com/user-attachments/assets/82536e30-b22f-4ddb-a414-010b73afbb35" />
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Home Page
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+<img width="496" height="893" alt="image" src="https://github.com/user-attachments/assets/9c02c72b-4f3c-4124-b29c-b6636ba59ce6" />
 
-## Get a fresh project
+### Creating and Adding Routines
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<img width="498" height="892" alt="image" src="https://github.com/user-attachments/assets/a6bb9ace-56d8-4ccc-b609-5a260e85d400" />
+<img width="498" height="895" alt="image" src="https://github.com/user-attachments/assets/809d388f-d1d0-4efe-9a94-ae5e22601bc0" />
+<img width="504" height="893" alt="image" src="https://github.com/user-attachments/assets/69c788a7-8433-4c84-af68-268ce2702b86" />
