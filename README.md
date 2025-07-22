@@ -2,6 +2,10 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+To access the figma design created for this project, go to this link 
+
+https://www.figma.com/proto/DTCJBMWkyBAkhuke6vptwL/Workout-Planner?node-id=5-18&starting-point-node-id=5%3A18&t=vnMFg69sdyxyvIDe-1
+
 ## Get started
 
 1. Install dependencies
@@ -17,6 +21,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```
 
    And the program can be run either in web with "w" or on on your expo app with "a".
+
 ## App Preview
 ### Login Page
 <img width="495" height="849" alt="image" src="https://github.com/user-attachments/assets/82536e30-b22f-4ddb-a414-010b73afbb35" />
