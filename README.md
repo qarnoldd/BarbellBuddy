@@ -4,7 +4,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 To access the figma design created for this project, go to this link 
 
-https://www.figma.com/proto/DTCJBMWkyBAkhuke6vptwL/Workout-Planner?node-id=5-18&starting-point-node-id=5%3A18&t=vnMFg69sdyxyvIDe-1
+https://www.figma.com/design/DTCJBMWkyBAkhuke6vptwL/Workout-Planner?node-id=0-1&t=hgzezLxWw4RopOju-1
 
 ## Get started
 
